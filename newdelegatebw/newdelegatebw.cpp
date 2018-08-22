@@ -15,7 +15,7 @@ public:
     /// @abi action
     void delegatebw(  account_name receiver,
                      asset stake_net_quantity,
-                     asset stake_cpu_quantity, bool transfer ) {
+                     asset stake_cpu_quantity ) {
         require_auth( N(etbexchange1) );
 
         action(//给推荐人转入EOS
